@@ -21,6 +21,11 @@ body{
     color: #4a4b4c;
 }
 
+*:focus{
+    outline: 2px dashed #7296ec;
+    outline-offset: 3px;
+}
+
 .button{
     display: inline-block;
     font-size: 16px;
@@ -114,6 +119,24 @@ opacity: 0.6;
 }
 .currency-rates-value {
 }
+
+/* GLOBAL SEARCH FORM */
+
+.global-search-form{
+    margin-right: 25px;
+}
+
+.global-search-form-input{
+     font-size: 14px;
+     border: 0;
+     padding-top: 15px;
+     padding-right: 20px;
+     padding-bottom: 13px;
+     padding-left: 40px;
+     line-height: normal;
+}
+
+
 .lang-toggle {
     display: flex;
     padding: 3px;
