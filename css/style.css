@@ -21,6 +21,31 @@ body{
     color: #4a4b4c;
 }
 
+.button{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 13px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    line-height: normal;
+    text-align: center;
+}
+
+.button-primary{
+    background-color: #7296ec;
+    color: #fff;
+}
+
+.button-primary:hover{
+    opacity: 0.8;
+}
+
+.button-primary:active{
+    opacity: 0.6;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -34,4 +59,84 @@ img{
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* SITE-HEADER */
+
+.site-header {
+}
+
+/* SITE HEADER TOP */
+
+.site-header-top {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.site-header-top-conteiner {
+    display: flex;
+    align-items: center;
+}
+.container {
+}
+.site-header-logo {
+    display: flex;
+    padding: 8px 6px;
+    border-radius: 7px;
+    margin-right: 35px;
+    background-color: #fff;
+}
+
+.site-header-logo:active{
+opacity: 0.6;
+}
+
+.site-header-logo:hover{
+    opacity: 0.8;
+    
+}
+
+.site-header-logo-img {
+}
+.currency-rates {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+}
+.currency-rates-items:not(:last-child){
+    margin-right: 25px;
+}
+.currency-rates-type {
+    color:#2959ce;
+}
+.currency-rates-value {
+}
+.lang-toggle {
+    display: flex;
+    padding: 3px;
+    margin-right: 25px;
+    border-radius: 39px;
+    background-color: #dce6ff;
+}
+.lang-toggle-link {
+    color: #f6f6f6;
+    font-size: 13px;
+    width: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    border-radius:50%;
+    text-align: center;
+    height: 30px;
+}
+.lang-toggle-link-active {
+    background-color: #fff;
+    color: black;
+}
+
+.button {
+}
+.button-primary {
 }
