@@ -30,6 +30,7 @@ body {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
+  border: 0;
   cursor: pointer;
   padding: 13px 20px;
   border-radius: 10px;
@@ -49,6 +50,10 @@ body {
 
 .button-primary:active {
   opacity: 0.6;
+}
+
+.button-oranger{
+  background-color: #F78B3B;
 }
 
 img {
@@ -220,6 +225,7 @@ SITE-HEADER-BANNER .site-header-banner-link {
 .news-grid {
   display: flex;
  flex-wrap: wrap;
+ margin-bottom: -10px;
  margin-left: -10px;
 }
 .news-grid-item {
@@ -293,4 +299,29 @@ line-height: normal;
 color: #5e5F61;
 }
 .article-card-source {
+}
+
+/* NOTIFICATION CTA */
+
+.notification-cta {
+margin: 60px 75px;
+display: flex;
+align-items: center;
+padding-right: 71px;
+justify-content: space-between;
+padding-left: 29px;
+padding-top: 24px;
+border-radius: 10px;
+padding-bottom: 24px;
+background-color: #FFD7BA  ;
+}
+.notification-cta-text {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  line-height: 26px;
+}
+.button {
+}
+.button-oranger {
 }
