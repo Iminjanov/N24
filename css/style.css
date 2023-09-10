@@ -539,6 +539,13 @@ SITE-HEADER-BANNER .site-header-banner-link {
 }
 .sidebar-ad-img {
   margin-top: 10px;
+  width: 393px;
+  height: 338px;
+}
+
+.sidebar-ad-img-tall {
+  height: 553px;
+  width: 393px;
 }
 
 .layout-2-1-sidebar-item:not(:last-child) {
